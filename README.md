@@ -96,14 +96,6 @@ model = QuestionAnsweringModel("roberta", "roberta-large", args=train_args)
 
 ---
 
-### 5. Evaluation
-
-After training, evaluate the model on the test set:
-```bash
-python evaluate.py --checkpoint <path_to_model_checkpoint>
-```
-
----
 
 ## Datasets
 
